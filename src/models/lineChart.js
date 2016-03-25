@@ -17,8 +17,8 @@ nv.models.lineChart = function() {
         , brush = d3.svg.brush()
         ;
 
-    var margin = {top: 30, right: 25, bottom: 50, left: 60}
-        , margin2 = {top: 0, right: 25, bottom: 20, left: 60}
+    var margin = {top: 30, right: 40, bottom: 50, left: 60}
+        , margin2 = {top: 0, right: 40, bottom: 20, left: 60}
         , color = nv.utils.defaultColor()
         , width = null
         , height = null
